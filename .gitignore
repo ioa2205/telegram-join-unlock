@@ -1,0 +1,15 @@
+# Environment
+.env
+.venv/
+
+# Database
+bot.db
+bot.db-journal
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.idea/
+.vscode/

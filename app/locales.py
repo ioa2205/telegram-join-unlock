@@ -1,20 +1,20 @@
 # app/locales.py
 
 # --- User-facing strings ---
-MSG_START_PRE_VERIFY_WITH_SLUG = """
-Assalomu alaykum, {user_name}!
+MSG_START_PRE_VERIFY_WITH_SLUG = """ 
+Assalamu alaikum, {user_name}!
 
-Siz <b>"{slug_label}"</b> uchun keldingiz. Uni ochish uchun, iltimos, avval guruhga qo‘shiling va "✅ A’zo bo‘ldim" tugmasini bosing.
+Sie sind wegen <b>"{slug_label}"</b> hier. Um es freizuschalten, treten Sie bitte zuerst der Gruppe bei und klicken Sie auf die Schaltfläche "✅ Ich bin beigetreten".
 """
-MSG_START_NO_PAYLOAD = "Kechirasiz, siz foydalangan havola xato yoki muddati o'tgan. Iltimos, havolani olgan joyingizdan qayta tekshirib ko'ring."
-MSG_VERIFY_FAIL = "Siz hali guruhga a’zo emassiz. Iltimos, qo‘shiling va yana tekshiring."
-MSG_VERIFIED_SUCCESS = "Tabriklaymiz! Siz tanlagan material tayyor."
-MSG_LEFT_CHANNEL = "Ko‘rinishidan guruhga a’zolik bekor qilingan. Iltimos, qayta qo‘shiling."
+MSG_START_NO_PAYLOAD = "Entschuldigung, der verwendete Link ist falsch oder abgelaufen. Bitte überprüfen Sie den Link erneut an der Stelle, an der Sie ihn erhalten haben."
+MSG_VERIFY_FAIL = "Sie sind der Gruppe noch nicht beigetreten. Bitte treten Sie bei und versuchen Sie es erneut."
+MSG_VERIFIED_SUCCESS = "Glückwunsch! Ihr ausgewähltes Material ist bereit."
+MSG_LEFT_CHANNEL = "Es scheint, dass Ihre Mitgliedschaft in der Gruppe aufgehoben wurde. Bitte treten Sie erneut bei."
 
 # --- User Buttons ---
-BTN_JOIN_CHANNEL = "🔗 Guruhga qo‘shilish"
-BTN_VERIFY_JOIN = "✅ A’zo bo‘ldim"
-BTN_I_REJOINED = "✅ Qayta a'zo bo'ldim"
+BTN_JOIN_CHANNEL = "🔗 Der Gruppe beitreten"
+BTN_VERIFY_JOIN = "✅ Ich bin beigetreten"
+BTN_I_REJOINED = "✅ Ich bin erneut beigetreten"
 
 # --- Admin Panel ---
 MSG_ADMIN_PANEL_GREETING_WITH_STATS = """
